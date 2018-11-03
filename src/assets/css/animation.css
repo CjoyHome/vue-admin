@@ -1,0 +1,21 @@
+.login-animation-enter-active {
+    animation: login-animation-in 2s
+}
+
+.login-animation-enter,
+.login-animation-leave-to {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+@keyframes login-animation-in {
+    0% {
+        transform: translate(-50%, -30%);
+    }
+    50% {
+        transform: translate(-50%, -60%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
